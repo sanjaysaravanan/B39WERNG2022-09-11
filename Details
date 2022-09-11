@@ -39,12 +39,15 @@ Topics:
       margin ---> border ---> padding ---> content
 
   Position ---> 
-    CSS Property which lets us to position a particuler element within the webpage
+    CSS Property which lets us to position 
+      1. Affects the normal flow of the document
+      2. Space created
+      3. Affected by top, left, right, bottom
 
-    > static  ---> default position
-      1. does not affect the normal flow of the document
-      2. space is created 
-      3. Also, is not affect by the top, left, right, bottom
+    static:
+      1. goes along the normal flow of the document
+      2. Space created
+      3. not Affected by top, left, right, bottom
 
     with either doucment flow or independent of the document flow with help of top, left, right, bottom
 
@@ -69,6 +72,9 @@ Topics:
       1. Created alogn with normal flow of the document
       2. SPace created
       3. is not affected by scrolling after reaching point of the top, left ...
+      1. does not affect the normal flow of the document
+      2. space is created 
+      3. Also, is not affect by the top, left, right, bottom
 
   Next Session:
     
