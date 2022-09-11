@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .common-style {
+      height: 100px;
+      width: 100px;
+    }
+
+    .static-pos {
+      background-color: green;
+      position: static;
+      top: 100px;
+    }
+
+    .relative-pos {
+      background-color: yellow;
+      position: relative;
+      top: 30px;
+      left: 30px;
+    }
+
+    .absolute-pos {
+      background-color: violet;
+      position: absolute;
+      top: 10px;
+      left: 0px;
+    }
+
+    .fixed-pos {
+      background-color: violet;
+      position: fixed;
+      left: 100px;
+      top: 0px
+    }
+
+    .sticky-pos {
+      background-color: teal;
+      position: sticky;
+      /* left: 100px; */
+      top: 20px;
+    }
+
+
+  </style>
+</head>
+<body>
+  <div style="margin: 25px;">
+    <div style="background-color: wheat; height: 1000px; width: 500px">
+      <div>Some Content Line One</div>
+      <div class="common-style sticky-pos"></div>
+      <div>Some Content Line One</div>
+    </div>
+  </div>
+  
+</body>
+</html>

@@ -1,0 +1,91 @@
+
+Topics:
+
+  display: 
+  
+  inline -> only takes the width that the content needed
+  
+  block -> takes the complete width of the parent element
+  
+  inline-block -> behaves like a inline but accepts width and height props
+
+  class vs id
+
+    id CSS Selector:
+      use #<id-name> to select a specific tag
+
+      Each Tag should have unique id
+    
+    Class:
+      use .<class-name> to select a grp of tag
+
+      multiple elements can have same class
+
+    --> Priorities
+      id & class for same elements
+
+    multiple classes
+      A tag/element can have muliple classes
+
+      Priorities will be based on the flow of execution
+  
+  box model: 
+    wrapping the contents of an element with padding, border, margin
+
+    inside to outside 
+      content ---> padding ---> border ---> margin 
+
+    outside to inside
+      margin ---> border ---> padding ---> content
+
+  Position ---> 
+    CSS Property which lets us to position a particuler element within the webpage
+
+    > static  ---> default position
+      1. does not affect the normal flow of the document
+      2. space is created 
+      3. Also, is not affect by the top, left, right, bottom
+
+    with either doucment flow or independent of the document flow with help of top, left, right, bottom
+
+    > relative 
+        relative to its space in parent
+      1. Affects the normal flow of the document
+      2. Space created
+      3. Affected by top, left, right, bottom
+
+    > absolute
+      1. Removed from the normal flow, placed accroding to the closest positioned element parent else to the HTML
+      2. No Space created
+      3. Affected by top, left, right, bottom
+
+    > fixed
+      1. Removed from the normal flow and placed relative to the initial containing block/ultimate parent html tag
+      2. No space created
+      3. Not Affected by scrolling
+      4. Affected by top, left, right, bottom
+
+    > sticky
+      1. Created alogn with normal flow of the document
+      2. SPace created
+      3. is not affected by scrolling after reaching point of the top, left ...
+
+  Next Session:
+    
+    parent inherit:
+
+      property value inherition from parent property ( css )
+
+      .parent {
+        border: 1px dashed #f00;
+      }
+
+      .child {
+        border: inherit; // this will inherit the border prop value from parent
+      }
+
+    
+    Table and Form Clarification
+
+    bit more info on git
+    netlify deployements
