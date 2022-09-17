@@ -15,6 +15,8 @@ Topics:
       use #<id-name> to select a specific tag
 
       Each Tag should have unique id
+      
+      Eg: <div id="some-id"></div>
     
     Class:
       use .<class-name> to select a grp of tag
@@ -28,6 +30,8 @@ Topics:
       A tag/element can have muliple classes
 
       Priorities will be based on the flow of execution
+     
+   Eg: <div class="class-one class-two"></div>
   
   box model: 
     wrapping the contents of an element with padding, border, margin
